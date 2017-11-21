@@ -70,7 +70,7 @@ header {
 	float: right;
 	width: 180px;
 	background: #ccc;   /* #EADCAE = vaaleanruskea, beige */
-	padding-bottom: 10px;  
+	padding-bottom: 0px;  
 }
 .content {
 	padding: 10px 0;
@@ -183,5 +183,5 @@ header, footer, nav, aside { display: block; }
 .trans:hover {
 	background-color: #87CEFA;    
 	font-size: 23px;
-	color: #DC143C;   /* tekstin väri, johon muutetaan */
+	color: #ff6600;  /* tekstin väri, johon muutetaan, oli  DC143C */
 }

@@ -22,7 +22,7 @@ function fixYear4(x){
 var dayNames=new Array('su','ma','ti','ke','to','pe','la');
 var monthNames=new Array('tammikuuta','helmikuuta','maaliskuuta','huhtikuuta','toukokuuta','kesäkuuta','heinäkuuta','elokuuta','syyskuuta','lokakuuta','marraskuuta','joulukuuta');
 var fr=0;
-var outputTime="dayNames[timeSource().getDay()]+' '+timeSource().getDate()+'.'+' '+monthNames[timeSource().getMonth()]+' '+fixYear4(timeSource().getYear())+' '+'. . . . kello on'+' '+leadingZero(timeSource().getHours())+':'+leadingZero(timeSource().getMinutes())+':'+leadingZero(timeSource().getSeconds())+' '";
+var outputTime="dayNames[timeSource().getDay()]+' '+timeSource().getDate()+'.'+' '+monthNames[timeSource().getMonth()]+' '+fixYear4(timeSource().getYear())+' '+'. . . kello on'+' '+leadingZero(timeSource().getHours())+':'+leadingZero(timeSource().getMinutes())+':'+leadingZero(timeSource().getSeconds())+' '";
 
 
 
